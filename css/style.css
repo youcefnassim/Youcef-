@@ -131,12 +131,13 @@ h1, h2, h3, h4 { font-weight: 800; line-height: 1.2; }
 .logo { font-size: 2rem; font-weight: 800; margin-bottom: 0; }
 .logo .dot { color: var(--secondary); }
 
-.nav-links { display: flex; flex-direction: row; gap: 20px; width: auto; padding: 0; align-items: center; }
+.nav-links { display: flex; flex-direction: row; gap: 10px; width: auto; padding: 0; align-items: center; }
 .nav-links li { width: auto; }
 .nav-links a { 
     display: flex; align-items: center; gap: 8px; 
-    font-weight: 600; font-size: 1rem; padding: 8px 15px;
+    font-weight: 600; font-size: 0.95rem; padding: 8px 10px;
     border-radius: 12px; transition: var(--transition);
+    white-space: nowrap;
 }
 .nav-links a i { display: none; }
 .nav-links a:hover { background: var(--glass-bg); color: var(--primary); transform: translateY(-2px); }

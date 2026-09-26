@@ -387,11 +387,11 @@ h1, h2, h3, h4 { font-weight: 800; line-height: 1.2; }
 .social-links a { width: 45px; height: 45px; border-radius: 50%; background: var(--glass-bg); border: 1px solid var(--glass-border); display: flex; justify-content: center; align-items: center; font-size: 1.2rem; }
 .social-links a:hover { background: var(--secondary); color: var(--bg-dark); border-color: var(--secondary); transform: translateY(-5px); }
 
-.contact-form { padding: 30px; display: flex; flex-direction: column; justify-content: center; }
-.input-group { margin-bottom: 15px; }
-.contact-form input, .contact-form textarea { width: 100%; padding: 12px; background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 8px; color: var(--text-main); font-family: var(--font-main); font-size: 0.95rem; outline: none; transition: var(--transition); }
+.contact-form { padding: 30px; display: flex; flex-direction: column; justify-content: center; width: 100%; box-sizing: border-box; }
+.input-group { margin-bottom: 15px; width: 100%; }
+.contact-form input, .contact-form textarea { width: 100%; padding: 12px; background: rgba(255, 255, 255, 0.03); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 8px; color: var(--text-main); font-family: var(--font-main); font-size: 0.95rem; outline: none; transition: var(--transition); box-sizing: border-box; }
 .contact-form input:focus, .contact-form textarea:focus { border-color: var(--primary); background: rgba(255, 255, 255, 0.08); }
-.btn-block { width: 100%; text-align: center; border: none; cursor: pointer; font-size: 1rem; padding: 12px; border-radius: 8px; }
+.btn-block { width: 100%; text-align: center; border: none; cursor: pointer; font-size: 1rem; padding: 12px; border-radius: 8px; box-sizing: border-box; display: block; }
 .social-links a { width: 45px; height: 45px; border-radius: 50%; background: var(--glass-bg); border: 1px solid var(--glass-border); display: flex; justify-content: center; align-items: center; font-size: 1.2rem; }
 .social-links a:hover { background: var(--secondary); color: var(--bg-dark); border-color: var(--secondary); transform: translateY(-5px); }
 

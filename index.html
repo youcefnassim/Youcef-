@@ -46,21 +46,20 @@
                 <li><a href="#projects"><i class="fa-solid fa-laptop-code"></i> Projets</a></li>
                 <li><a href="#certificates"><i class="fa-solid fa-certificate"></i> Certificats</a></li>
                 <li><a href="#offers"><i class="fa-solid fa-handshake"></i> Services</a></li>
-                <li><a href="#contact" class="btn-nav" style="background: none; border: 1px solid var(--text-main); box-shadow: none;">Contact</a></li>
-                <li><button class="btn-nav btn-theme-toggle" onclick="cycleTheme()" style="cursor:pointer; font-family: inherit;">Thème <i class="fa-solid fa-palette"></i></button></li>
+                <li><a href="#contact" class="btn-nav" style="background: none; border: 1px solid var(--text-main); box-shadow: none; padding: 6px 15px;">Contact</a></li>
+                
+                <!-- Minimal Controls (Theme & Lang) -->
+                <li>
+                    <div class="nav-controls">
+                        <button class="theme-icon-btn" onclick="cycleTheme()" title="Thème"><i class="fa-solid fa-palette"></i></button>
+                        <div class="minimal-lang">
+                            <button onclick="changeLanguage('fr')" class="lang-text active" id="btn-fr">FR</button>
+                            <span>/</span>
+                            <button onclick="changeLanguage('en')" class="lang-text" id="btn-en">EN</button>
+                        </div>
+                    </div>
+                </li>
             </ul>
-
-            <div class="sidebar-socials">
-                <a href="https://github.com/youcefnassim" target="_blank" rel="noopener noreferrer" aria-label="Visiter mon GitHub"><i class="fa-brands fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/ben-maamar-youssouf-nassim-791244219/" target="_blank" rel="noopener noreferrer" aria-label="Visiter mon profil LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
-            </div>
-
-            <!-- Language Switcher -->
-            <div class="lang-switcher">
-                <button onclick="changeLanguage('fr')" class="lang-btn active" id="btn-fr">FR</button>
-                <div class="lang-divider"></div>
-                <button onclick="changeLanguage('en')" class="lang-btn" id="btn-en">EN</button>
-            </div>
             
             <!-- Hidden Google Translate Element -->
             <div id="google_translate_element" style="display:none;"></div>

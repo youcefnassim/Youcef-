@@ -161,7 +161,7 @@ h1, h2, h3, h4 { font-weight: 800; line-height: 1.2; }
 .hamburger .bar { width: 25px; height: 3px; background-color: var(--text-main); transition: var(--transition); border-radius: 3px; }
 
 /* ================= Hero & Typewriter ================= */
-.hero { height: 100vh; display: flex; align-items: center; justify-content: center; position: relative; overflow: hidden; }
+.hero { height: 100vh; display: flex; align-items: center; justify-content: center; position: relative; overflow: hidden; padding-top: 80px; }
 .hero-content { max-width: 1200px; margin: 0 auto; padding: 0 20px; z-index: 10; width: 100%; text-align: center; }
 .greeting { font-size: 1.8rem; font-weight: 400; color: var(--text-muted); margin-bottom: 20px; letter-spacing: 2px; text-transform: uppercase; }
 .hero .name { font-size: 6.5rem; margin-bottom: 20px; line-height: 1; }

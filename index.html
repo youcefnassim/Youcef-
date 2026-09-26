@@ -740,9 +740,15 @@
 
     <!-- AI Chatbot Widget -->
     <div class="chatbot-container" data-animate="fade-in">
-        <button class="chatbot-toggle" id="chatbot-toggle" aria-label="Ouvrir l'assistant virtuel">
-            <i class="fa-solid fa-robot"></i>
-        </button>
+        <div class="floating-pill">
+            <a href="#hero" class="back-to-top" id="back-to-top" aria-label="Retour en haut">
+                <i class="fa-solid fa-arrow-up"></i>
+            </a>
+            <div class="pill-divider"></div>
+            <button class="chatbot-toggle" id="chatbot-toggle" aria-label="Ouvrir l'assistant virtuel">
+                <i class="fa-solid fa-robot"></i>
+            </button>
+        </div>
         <div class="chatbot-window" id="chatbot-window">
             <div class="chatbot-header">
                 <div class="bot-info">
@@ -772,10 +778,6 @@
     </div>
 
     </div>
-
-    <a href="#hero" class="back-to-top" id="back-to-top" aria-label="Retour en haut">
-        <i class="fa-solid fa-arrow-up"></i>
-    </a>
 
     <!-- Case Study Modal -->
     <div class="video-modal" id="case-study-modal">
